@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Google-Font-Preview-JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside>
+    	<span>
+            <strong>Current Font:</strong>
+        </span>
+        <br>
+        <div class="selected-font"></div>
+        <div class="search-font">
+            <input type="text" id="font-search" placeholder="Search Fonts" onkeyup="searchFonts()">
+        </div>
+        <ul id="fonts"></ul>
+    </aside>
+
+    <main>
+        <header>
+            <div class="size">
+                <div class="copy-this-font">
+                    <button id="copy-this-font">Copy Font</button>
+                </div>
+		    </div>
+        </header>
+		
+        <textarea id="content" placeholder="Type or Paste Text Here"></textarea>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
