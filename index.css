@@ -2,13 +2,15 @@
   margin: 0;
   padding: 0;
 }
+
 aside {
   position: fixed;
-  width: 20%;
+  width: 30%;
   height: 100vh;
 }
 
-aside .selected-font, span {
+aside .selected-font,
+span {
   font-size: 22px;
   font-family: sans-serif;
   text-align: center;
@@ -24,9 +26,10 @@ aside .search-font input {
   font-size: 15px;
   padding: 5px 10px;
 }
+
 aside #fonts {
   height: 100%;
-  background: #F9F9F9;
+  background: #f9f9f9;
   font-size: 1.2rem;
   padding-left: 0;
   overflow-y: scroll;
@@ -47,9 +50,13 @@ main {
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 5vh;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   font-size: 1.2rem;
   font-family: sans-serif;
@@ -71,7 +78,7 @@ header .header-div {
 header .copy-this-font button {
   width: 100px;
   height: 5vh;
-  background-color: #48BDFF;
+  background-color: #48bdff;
   border: none;
   color: #fff;
   text-align: center;
@@ -107,11 +114,11 @@ header .copy-this-font button {
     width: 70%;
     left: 30%;
   }
- h1 {
+  h1 {
     display: none;
-    }
+  }
 }
- 
+
 @media all and (min-width: 1200px) {
   aside {
     width: 15%;

@@ -53,7 +53,6 @@ function init() {
   fetch('https://www.googleapis.com/webfonts/v1/webfonts?sort=popularity&key=AIzaSyD2XlgdSV2aMaFApwYwRZPGty_5PDSUaZA')
   .then((r) => r.json())
   .then((fontsObject) => {
-    //console.log(fontsObject);
     for (font of fontsObject.items) {
       addToLists( font.family);
     }
