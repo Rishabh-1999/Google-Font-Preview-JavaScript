@@ -1,10 +1,10 @@
-# Google-Font-Preview-JavaScript
-It is Webpage which gives preview of Google Fonts.
-**Note: Fonts that are available in *Google Fonts* are there only.**
+# Google-Fonts-Preview
+It is Webpage which gives preview of Google Fonts.<br />
+**Note: It shows fonts that are available in *Google Fonts* only.**
 
-Work
+Working Method
 ----
-It uses API to fetch Fonts data from *Google Fonts* and fetches link of each font and add to header of webpage, so that all fonts are loaded and can be tested.
+It uses Google Fonts Library Link to fetch all Fonts from *Google Fonts* and add to header( Head Tag ) of the webpage, so that all fonts can be loaded and can be tried and worked upon.
 
 Preview
 -------
